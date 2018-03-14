@@ -21,13 +21,16 @@ brew install <PACKAGE>
 
 The following packages are currently supported.
 
+* `amcl` - A [C cryptographic
+  library](https://github.com/milagro-crypto/milagro-crypto-c) with no
+  external dependencies, specifically designed to support the Internet
+  of Things (IoT).
+
 * `xaptum-tpm` - [Utilities](https://github.com/xaptum/xaptum-tpm) for
   interacting with the TPM 2.0 used to access the Xaptum Edge Network
   Fabric.
 
 Support for the following packages is planned.
-
-* amcl
 
 * ecdaa
 
