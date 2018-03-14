@@ -21,7 +21,7 @@ brew install <PACKAGE>
 
 The following packages are currently supported.
 
-* `amcl` - A [C cryptographic
+* `amcl` - [C cryptographic
   library](https://github.com/milagro-crypto/milagro-crypto-c) with no
   external dependencies, specifically designed to support the Internet
   of Things (IoT).
@@ -33,7 +33,5 @@ The following packages are currently supported.
 Support for the following packages is planned.
 
 * ecdaa
-
-* xaptum-tpm
 
 * xtt
