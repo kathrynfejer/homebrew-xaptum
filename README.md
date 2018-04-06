@@ -26,12 +26,13 @@ The following packages are currently supported.
   external dependencies, specifically designed to support the Internet
   of Things (IoT).
 
+* `ecdaa` - [C implementation](https://github.com/xaptum/ecdaa) of
+  elliptic-curve-based Direct Anonymous Attestation (DAA) signatures.
+
 * `xaptum-tpm` - [Utilities](https://github.com/xaptum/xaptum-tpm) for
   interacting with the TPM 2.0 used to access the Xaptum Edge Network
   Fabric.
 
 Support for the following packages is planned.
-
-* ecdaa
 
 * xtt
