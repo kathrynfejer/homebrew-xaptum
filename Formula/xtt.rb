@@ -1,8 +1,8 @@
 class Xtt < Formula
   desc "C lib for XTT Trusted Transit Protocol for securing the IoT"
   homepage "https://github.com/xaptum/xtt"
-  url "https://github.com/xaptum/xtt/archive/v0.5.0.tar.gz"
-  sha256 "4a2c1cffdb2b0a89d206a9984ac82d0822681d01244dc33c697652004f5f9b1e"
+  url "https://github.com/xaptum/xtt/archive/v0.5.3.tar.gz"
+  sha256 "5160dab165250997c045828e24fe029243dfc43f8fdbd04bf044f0372dfbe32d"
 
   depends_on "cmake" => :build
   depends_on "ecdaa"
@@ -11,7 +11,7 @@ class Xtt < Formula
 
   def install
     args = std_cmake_args
-    args << "-DBUILD_EXAMPLES=OFF"
+    args << "-DBUILD_EXAMPLES=ON"
     args << "-DBUILD_TESTING=OFF"
 
     if build.without? "xaptum-tpm"
