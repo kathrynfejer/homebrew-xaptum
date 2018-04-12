@@ -1,9 +1,9 @@
 class Ecdaa < Formula
   desc "A C implementation of elliptic-curve-based Direct Anonymous Attestation (DAA) signatures."
   homepage "https://github.com/xaptum/ecdaa"
-  version "0.8.3"
-  url "https://github.com/xaptum/ecdaa/archive/v0.8.3.tar.gz"
-  sha256 "6cbac430196a2982f82d9bce9f137dba415bbc7855c9181b4b8852e181422943"
+  version "0.8.5"
+  url "https://github.com/xaptum/ecdaa/archive/v0.8.5.tar.gz"
+  sha256 "52c00b32af80bfa4347b527bdbd7de8ff8122838e300bfac2256ceded9260b16"
 
   depends_on "cmake" => :build
   depends_on "python" => :build
