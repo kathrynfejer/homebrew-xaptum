@@ -33,6 +33,5 @@ The following packages are currently supported.
   interacting with the TPM 2.0 used to access the Xaptum Edge Network
   Fabric.
 
-Support for the following packages is planned.
-
-* xtt
+* `xtt` - [C library](https://github.com/xaptum/xtt) implementing the
+  XTT Trusted Transit protocol for securing the Internet of Things.
