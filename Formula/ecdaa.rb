@@ -1,8 +1,8 @@
 class Ecdaa < Formula
   desc "C lib for Elliptic Curve Direct Anonymous Attestation (DAA) signatures"
   homepage "https://github.com/xaptum/ecdaa"
-  url "https://github.com/xaptum/ecdaa/archive/v0.8.5.tar.gz"
-  sha256 "52c00b32af80bfa4347b527bdbd7de8ff8122838e300bfac2256ceded9260b16"
+  url "https://github.com/xaptum/ecdaa/archive/v0.9.0.tar.gz"
+  sha256 "cceb764ee6b0dbd26eb071ea0cf83f9b453c722d5006107f1dcc979d4a6617c3"
 
   depends_on "cmake" => :build
   depends_on "python" => :build
@@ -20,10 +20,6 @@ class Ecdaa < Formula
       args << "-DECDAA_TPM_SUPPORT=OFF"
     else
       args << "-DECDAA_TPM_SUPPORT=ON"
-    end
-
-    if build.without? "libsodium"
-      args << "-DDISABLE_LIBSODIUM_RNG_SEED_FUNCTION=ON"
     end
 
     mkdir "build" do
