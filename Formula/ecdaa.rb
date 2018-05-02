@@ -12,7 +12,7 @@ class Ecdaa < Formula
   def install
     args = std_cmake_args
     args << "-DECDAA_CURVES=BN254,BN254CX,BLS383,FP256BN"
-    args << "-DBUILD_EXAMPLES=ON"
+    args << "-DBUILD_EXAMPLES=OFF"
     args << "-DBUILD_TESTING=OFF"
 
     if build.without? "xaptum-tpm"

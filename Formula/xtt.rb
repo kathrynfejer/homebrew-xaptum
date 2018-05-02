@@ -11,7 +11,7 @@ class Xtt < Formula
 
   def install
     args = std_cmake_args
-    args << "-DBUILD_EXAMPLES=ON"
+    args << "-DBUILD_EXAMPLES=OFF"
     args << "-DBUILD_TESTING=OFF"
 
     if build.without? "xaptum-tpm"
