@@ -7,7 +7,6 @@ class Ecdaa < Formula
   depends_on "cmake" => :build
   depends_on "python" => :build
   depends_on "amcl"
-  depends_on "libsodium" => :recommended
   depends_on "xaptum-tpm" => :recommended
 
   def install
