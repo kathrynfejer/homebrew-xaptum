@@ -1,8 +1,8 @@
 class XaptumTpm < Formula
   desc "Utilities for interacting with the TPM 2.0 chip used to access the Xaptum Edge Network Fabric."
   homepage "https://github.com/xaptum/xaptum-tpm"
-  url "https://github.com/xaptum/xaptum-tpm/archive/v0.5.1.tar.gz"
-  sha256 "89c9087cf6cffe576144abe689f4a8c75c45c94360116cf22860f3b8d888ad1a"
+  url "https://github.com/xaptum/xaptum-tpm/archive/v0.5.2.tar.gz"
+  sha256 "78985423adde92d7fd09f4c13653f48ae7abab953e1ed901663eb90acb3a8351"
 
   depends_on "cmake" => :build
 
