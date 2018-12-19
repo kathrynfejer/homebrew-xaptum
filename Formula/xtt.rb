@@ -1,8 +1,8 @@
 class Xtt < Formula
   desc "C lib for XTT Trusted Transit Protocol for securing the IoT"
   homepage "https://github.com/xaptum/xtt"
-  url "https://github.com/xaptum/xtt/archive/v0.10.1.tar.gz"
-  sha256 "ec31a437a80b7da97bd3fa9c07cba0d6a9dd25559d0a41a898f5b0bf104439cb"
+  url "https://github.com/xaptum/xtt/archive/v0.10.2.tar.gz"
+  sha256 "47aa1dd8b94d0ebf44205ea565120bdaf5d87247e53ef5f9eaf96345f81c3eb8"
 
   depends_on "cmake" => :build
   depends_on "ecdaa"
